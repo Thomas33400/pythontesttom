@@ -2,3 +2,4 @@ import pandas
 import time
 
 bot_in_action = True
+was_in_position = Flase
