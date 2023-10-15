@@ -7,3 +7,8 @@ startup_info = False
 
 main_order = False
 stop_value = 1000
+
+print(f"\nDemarrage du robot\n")
+
+While (bot_in_action == True) :
+
