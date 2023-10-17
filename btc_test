@@ -15,4 +15,5 @@ While (bot_in_action == True) :
  try :
    unix = int(time.time())-21*5*60
    reponse = session.query_kline()
+   panda_response = pandas.DataFrame(response)
 
