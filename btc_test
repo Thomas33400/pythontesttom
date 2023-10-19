@@ -16,5 +16,5 @@ While (bot_in_action == True) :
    unix = int(time.time())-21*5*60
    reponse = session.query_kline()
    panda_response = pandas.DataFrame(response)
-   current_candle_high = panda_resoonse(len-1)
-
+   current_candle_high = panda_response(len-1)
+   current_candle_low = low
