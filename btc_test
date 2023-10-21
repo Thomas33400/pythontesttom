@@ -19,4 +19,5 @@ While (bot_in_action == True) :
    current_candle_high = panda_response(len-1)
    current_candle_low = low
    current_candle_high = high
+   current_candle_open = open
   
