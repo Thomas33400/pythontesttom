@@ -21,4 +21,4 @@ While (bot_in_action == True) :
    current_candle_high = high
    current_candle_open = open
    current_candle_close = close
-  
+   current_candle_time = time.time()
