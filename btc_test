@@ -22,3 +22,6 @@ While (bot_in_action == True) :
    current_candle_open = open
    current_candle_close = close
    current_candle_time = time.time()
+   
+   moving_average = responde.mean()
+   standart_dev = reponse.std(ddof=0)
