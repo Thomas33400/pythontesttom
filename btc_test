@@ -27,3 +27,4 @@ While (bot_in_action == True) :
    standart_dev = reponse.std(ddof=0)
 
    boll_up = moving_average + 2*standart_dev
+   boll_down = moving_average - 2*standart_dev
