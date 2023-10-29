@@ -6,6 +6,9 @@ was_in_position = False
 startup_info = False
 
 main_order = False
+stop_order = False
+takeprofit_order = False
+
 stop_value = 1000
 stop_size = 0.375/100
 
