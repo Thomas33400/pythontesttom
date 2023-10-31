@@ -7,12 +7,12 @@ startup_info = False
 
 main_order = False
 stop_order = True
-takeprofit_order = False
+takeprofit_order = True
 
-stop_value = 1000
-stop_size = 1/100
+stop_value = 10000
+stop_size = 8/100
 
-takeprofit = 5
+takeprofit = 50
 
 print(f"\nDemarrage du robot\n")
 
