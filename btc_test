@@ -9,10 +9,10 @@ main_order = False
 stop_order = True
 takeprofit_order = True
 
-stop_value = 10000
-stop_size = 8/100
+stop_value = 100
+stop_size = 10/100
 
-takeprofit = 50
+takeprofit = 500
 
 print(f"\nDemarrage du robot\n")
 
@@ -34,5 +34,7 @@ While (bot_in_action == True) :
 
    boll_up = moving_average + 2*standart_dev
    boll_down = moving_average - 2*standart_dev
+
+   round_boll_up = round(boll_up)
 
    
