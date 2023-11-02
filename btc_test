@@ -36,5 +36,6 @@ While (bot_in_action == True) :
    boll_down = moving_average - 2*standart_dev
 
    round_boll_up = round(boll_up)
+   round_boll_down = round(boll_down)
 
    
