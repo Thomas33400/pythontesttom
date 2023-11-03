@@ -10,9 +10,9 @@ stop_order = True
 takeprofit_order = True
 
 stop_value = 100
-stop_size = 10/100
+stop_size = 12.5/100
 
-takeprofit = 500
+takeprofit = 5000
 
 print(f"\nDemarrage du robot\n")
 
@@ -37,5 +37,7 @@ While (bot_in_action == True) :
 
    round_boll_up = round(boll_up)
    round_boll_down = round(boll_down)
+
+   reponse_position = session.my_position()
 
    
