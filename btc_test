@@ -39,5 +39,6 @@ While (bot_in_action == True) :
    round_boll_down = round(boll_down)
 
    reponse_position = session.my_position()
+   reponse_order = session.get_order()
 
    
