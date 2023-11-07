@@ -2,17 +2,17 @@ import pandas
 import time
 
 bot_in_action = False
-was_in_position = True
+was_in_position = False
 startup_info = False
 
 main_order = False
 stop_order = True
 takeprofit_order = True
 
-stop_value = 1000
-stop_size = 15/100
+stop_value = 2500
+stop_size = 1/100
 
-takeprofit = 50000
+takeprofit = 25000
 
 print(f"\nDemarrage du robot\n")
 
