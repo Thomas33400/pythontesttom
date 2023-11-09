@@ -41,5 +41,4 @@ While (bot_in_action == True) :
    reponse_position = session.my_position()
    reponse_order = session.get_order()
    reponse_cond_order =session.get_cond_order()
-
-   
+   order_numb = len(reponse_order) + len(response_cond_order)
