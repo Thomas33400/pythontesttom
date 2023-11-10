@@ -3,23 +3,23 @@ import time
 
 bot_in_action = False
 was_in_position = False
-startup_info = False
+startup_info = True
 
 main_order = False
 stop_order = True
 takeprofit_order = True
 
-stop_value = 2554
-stop_size = 1.28/100
+stop_value = 2500
+stop_size = 1.375/100
 
-takeprofit = 25997
+takeprofit = 12550
 
 print(f"\nDemarrage du robot\n")
 
 While (bot_in_action == True) :
 
  try :
-   unix = int(time.time())-21*5*60
+   unix = int(time.time())-21*5*70
    reponse = session.query_kline()
    panda_response = pandas.DataFrame(response)
    current_candle_high = panda_response(len-1)
