@@ -42,3 +42,6 @@ While (bot_in_action == True) :
    reponse_order = session.get_order()
    reponse_cond_order =session.get_cond_order()
    order_numb = len(reponse_order) + len(response_cond_order)
+   
+   if(startup_info == False):
+       print(f"Risque : {stop_value}$")
