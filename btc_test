@@ -1,13 +1,13 @@
 import pandas
 import time
 
-bot_in_action = False
-was_in_position = False
+bot_in_action = True
+was_in_position = True
 startup_info = True
 
 main_order = False
 stop_order = True
-takeprofit_order = True
+takeprofit_order = False
 
 stop_value = 2500
 stop_size = 1.375/100
@@ -32,8 +32,8 @@ While (bot_in_action == True) :
    moving_average = responde.mean()
    standart_dev = reponse.std(ddof=0)
 
-   boll_up = moving_average + 3*standart_dev
-   boll_down = moving_average - 3*standart_dev
+   boll_up = moving_average + 2.5*standart_dev
+   boll_down = moving_average - 2.5*standart_dev
 
    round_boll_up = round(boll_up)
    round_boll_down = round(boll_down)
