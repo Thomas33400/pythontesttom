@@ -1,4 +1,4 @@
-import pandas
+iimport pandas
 import time
 
 bot_in_action = True
@@ -45,3 +45,4 @@ While (bot_in_action == True) :
    
    if(startup_info == False):
        print(f"Risque : {stop_value}$")
+       print(f"Levier : {response_position['leverage']})
