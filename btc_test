@@ -3,14 +3,14 @@ import time
 
 bot_in_action = True
 was_in_position = False
-startup_info = False
+startup_info = True
 
-main_order = False
-stop_order = Flase
+main_order = True
+stop_order = True
 takeprofit_order = False
 
-stop_value = 2500
-stop_size = 1.885/100
+stop_value = 250
+stop_size = 1.75/100
 
 takeprofit = 12500
 
