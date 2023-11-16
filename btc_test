@@ -46,3 +46,4 @@ While (bot_in_action == True) :
    if(startup_info == False):
        print(f"Risque : {stop_value}$")
        print(f"Levier : {response_position['leverage']})
+       print(f"Marge Isolé {response_position['is_isolated']}")
