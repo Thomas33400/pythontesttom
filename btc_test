@@ -1,6 +1,11 @@
 iimport pandas
 import time
 
+is_btc_down = True 
+
+if(is_btc_down == True) :
+   print("Come back later")
+
 bot_in_action = True
 was_in_position = False
 startup_info = True
