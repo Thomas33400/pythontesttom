@@ -53,3 +53,4 @@ While (bot_in_action == True) :
        print(f"Levier : {response_position['leverage']})
        print(f"Marge Isolé : {response_position['is_isolated']}")
        print(f"Mode : {response_position['position_idx']}")
+       print(f"Niveau achat min : {buy_level_min}")
