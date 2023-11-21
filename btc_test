@@ -11,13 +11,13 @@ was_in_position = False
 startup_info = True
 
 main_order = True
-stop_order = True
-takeprofit_order = True
+stop_order = False
+takeprofit_order = False
 
-stop_value = 233
-stop_size = 1.759/100
+stop_value = 2000
+stop_size = 1.879/100
 
-takeprofit = 12588
+takeprofit = 125400
 
 print(f"\nDemarrage du robot\n")
 
