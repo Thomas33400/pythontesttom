@@ -8,14 +8,14 @@ if(is_btc_down == True) :
 
 bot_in_action = True
 was_in_position = False
-startup_info = True
+startup_info = False
 
 main_order = True
 stop_order = False
 takeprofit_order = False
 
-stop_value = 2000
-stop_size = 1.879/100
+stop_value = 2599
+stop_size = 2.454/100
 
 takeprofit = 125400
 
