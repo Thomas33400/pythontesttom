@@ -14,10 +14,10 @@ main_order = True
 stop_order = False
 takeprofit_order = False
 
-stop_value = 2599
-stop_size = 2.454/100
+stop_value = 2555
+stop_size = 4.567/100
 
-takeprofit = 125400
+takeprofit = 12500
 
 print(f"\nDemarrage du robot\n")
 
