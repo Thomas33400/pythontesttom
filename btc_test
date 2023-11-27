@@ -57,3 +57,6 @@ While (bot_in_action == True) :
        print(f"Niveau vente min : {sell_level_min}")
 
        startup_info = True
+
+       if(reponse_postion(size) == 0):
+           print("Faux")
