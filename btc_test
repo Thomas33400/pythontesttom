@@ -60,5 +60,9 @@ While (bot_in_action == True) :
 
        if(reponse_postion(size) == 0):
            print("Faux")
+
        if(response_position(size) < 0):
            print("Error !")
+
+       if(response_position(size) > 0):
+           print("Position ouverte !")
