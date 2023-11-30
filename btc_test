@@ -14,10 +14,10 @@ main_order = True
 stop_order = False
 takeprofit_order = False
 
-stop_value = 29877
+stop_value = 29950
 stop_size = 4.987/100
 
-takeprofit = 12599
+takeprofit = 12500
 
 print(f"\nDemarrage du robot\n")
 
@@ -59,10 +59,12 @@ While (bot_in_action == True) :
        startup_info = True
 
        if(reponse_postion(size) == 0):
-           print("Faux")
+           if(was_in_position == True):
+              print("Faux")
 
        if(response_position(size) < 0):
            print("Error !")
 
        if(response_position(size) > 0):
            print("Position ouverte !")
+           
