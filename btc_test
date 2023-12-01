@@ -10,9 +10,9 @@ bot_in_action = True
 was_in_position = False
 startup_info = False
 
-main_order = True
+main_order = False
 stop_order = False
-takeprofit_order = False
+takeprofit_order = True
 
 stop_value = 29950
 stop_size = 4.987/100
@@ -67,4 +67,5 @@ While (bot_in_action == True) :
 
        if(response_position(size) > 0):
            print("Position ouverte !")
+           pistion_size = get_postion_size()
            
