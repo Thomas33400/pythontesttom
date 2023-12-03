@@ -1,7 +1,7 @@
 import pandas
 import time
 
-is_btc_down = True 
+is_btc_down = False
 
 if(is_btc_down == True) :
    print("Come back later")
@@ -11,13 +11,13 @@ was_in_position = False
 startup_info = False
 
 main_order = True
-stop_order = True
-takeprofit_order = True
+stop_order = False
+takeprofit_order = False
 
 stop_value = 29950
-stop_size = 4.987/100
+stop_size = 4.5/100
 
-takeprofit = 12500
+takeprofit = 12598
 
 print(f"\nDemarrage du robot\n")
 
