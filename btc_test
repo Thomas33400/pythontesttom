@@ -15,7 +15,7 @@ stop_order = False
 takeprofit_order = False
 
 stop_value = 29950
-stop_size = 4.5/100
+stop_size = 6.5/100
 
 takeprofit = 12598
 
@@ -68,6 +68,8 @@ While (bot_in_action == True) :
        if(response_position(size) > 0):
            print("Position ouverte !")
            position_size = get_postion_size()
-           postion_type = buy OR sell
+           position_type = buy OR sell 
+           position_liquidation = "to dertermined"
+ 
  
            
