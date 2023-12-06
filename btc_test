@@ -14,8 +14,8 @@ main_order = True
 stop_order = False
 takeprofit_order = False
 
-stop_value = 29950
-stop_size = 3.56/100
+stop_value = 30950
+stop_size = 2.75/100
 
 takeprofit = 12598
 
@@ -71,6 +71,7 @@ While (bot_in_action == True) :
            position_type = buy OR sell 
            position_liquidation = "to dertermined"
            postion_tp = 70000
+           position_sl = 10000
  
  
            
