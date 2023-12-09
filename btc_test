@@ -59,8 +59,11 @@ While (bot_in_action == True) :
        startup_info = True
 
        if(reponse_postion(size) == 0):
+
            if(was_in_position == True):
-              print("Faux")
+
+              print(f"Trade terminé({time.time()})")
+              bot_in_action = False
 
        if(response_position(size) < 0):
            print("Error !")
