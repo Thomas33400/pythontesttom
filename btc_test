@@ -73,10 +73,10 @@ While (bot_in_action == True) :
            position_size = get_postion_size()
            position_type = buy OR sell 
            position_liquidation = "to dertermined"
-           postion_tp = 70000
-           position_sl = 10000
-           positon_max_tp = 100000
-           postion_max_sl = 15000
+           postion_tp = 10000
+           position_sl = 1000
+           positon_max_tp = "tbd"
+           postion_max_sl = 2000
            postion_potential = "tbd"
      
  
