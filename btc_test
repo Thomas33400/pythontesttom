@@ -67,6 +67,9 @@ While (bot_in_action == True) :
 
        if(response_position(size) < 0):
            print("Error !")
+           place_down_order(boll_down)
+           place_up_order(boll_up)
+           
 
        if(response_position(size) > 0):
            print("Position ouverte !")
