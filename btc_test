@@ -14,10 +14,10 @@ main_order = True
 stop_order = False
 takeprofit_order = True
 
-stop_value = 3599
+stop_value = 3600
 stop_size = 2.5/100
 
-takeprofit = 18599
+takeprofit = 18700
 
 print(f"\nDemarrage du robot\n")
 
@@ -37,8 +37,8 @@ While (bot_in_action == True) :
    moving_average = responde.mean()
    standart_dev = reponse.std(ddof=0)
 
-   boll_up = moving_average + 2.7*standart_dev
-   boll_down = moving_average - 2.7*standart_dev
+   boll_up = moving_average + 2.85*standart_dev
+   boll_down = moving_average - 2.58*standart_dev
 
    round_boll_up = round(boll_up)
    round_boll_down = round(boll_down)
@@ -69,6 +69,8 @@ While (bot_in_action == True) :
            print("Error !")
            place_down_order(boll_down)
            place_up_order(boll_up)
+
+           print("Ordres placés")
            
 
        if(response_position(size) > 0):
