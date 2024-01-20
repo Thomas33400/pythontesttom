@@ -7,15 +7,15 @@ if(is_btc_down == False) :
    print("Come back later")
 
 bot_in_action = False
-was_in_position = False
+was_in_position = True
 startup_info = True
 
 main_order = True
 stop_order = False
 takeprofit_order = True
 
-stop_value = 3600
-stop_size = 2.5/100
+stop_value = 2500
+stop_size = 3.75/100
 
 takeprofit = 18700
 
@@ -78,8 +78,8 @@ While (bot_in_action == True) :
            position_size = get_postion_size()
            position_type = buy OR sell 
            position_liquidation = "to dertermined"
-           postion_tp = 10000
-           position_sl = 1000
+           postion_tp = 48000
+           position_sl = 5000
            positon_max_tp = "tbd"
            postion_max_sl = 2000
            postion_potential = "tbd"
