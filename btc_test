@@ -7,17 +7,17 @@ if(is_btc_down == False) :
    print("Come back later")
 
 bot_in_action = False
-was_in_position = True
+was_in_position = False
 startup_info = True
 
 main_order = True
 stop_order = False
 takeprofit_order = True
 
-stop_value = 2500
+stop_value = 1500
 stop_size = 3.75/100
 
-takeprofit = 18700
+takeprofit = 15000
 
 print(f"\nDemarrage du robot\n")
 
